@@ -36,4 +36,7 @@ selectCourses(course){
   console.log ('Select!',course);
   this.currentCourses = course;
 }
+deleteCourses(courseID){
+  console.log('Deleted',courseID);
+}
 }
